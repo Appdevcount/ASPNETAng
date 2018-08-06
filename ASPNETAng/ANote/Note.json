@@ -1,0 +1,126 @@
+Your global Angular CLI version (6.1.2) is greater than your local
+version (6.0.8). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+
+@angular/compiler-cli@6.1.1 requires typescript@'>=2.7.0 <2.8.0' but 3.0.1 was found instead.
+Using this version can result in undefined behaviour and difficult to debug problems.
+
+Please run the following command to install a compatible version of TypeScript.
+
+    npm install typescript@'>=2.7.0 <2.8.0'
+
+To disable this warning run "ng config cli.warnings.typescriptMismatch false".
+
+
+Date: 2018-08-05T07:05:50.088Z
+Hash: 712e7351fe5b992e10e4
+Time: 3507ms
+chunk {main} main.js, main.js.map (main) 705 bytes [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 760 bytes [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 5.22 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 150 kB [initial] [rendered]
+
+ERROR in The Angular Compiler requires TypeScript >=2.7.2 and <2.10.0 but 3.0.1 was found instead.
+
+==================================================
+C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\AS
+PNETAng-master\ASPNETAng>npm install --save-dev @angular/cli@latest
+npm notice created a lockfile as package-lock.json. You should commit this file.
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
++ @angular/cli@6.1.2
+added 247 packages from 188 contributors and audited 8788 packages in 128.759s
+found 0 vulnerabilities
+
+
+C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\AS
+PNETAng-master\ASPNETAng>ng -v
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / ? \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 6.1.2
+Node: 10.3.0
+OS: win32 x64
+Angular: <error>
+... animations, cli, common, compiler, compiler-cli, core, forms
+... http, language-service, platform-browser
+... platform-browser-dynamic, router
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.7.2 (cli-only)
+@angular-devkit/build-angular   <error>
+@angular-devkit/core            0.7.2 (cli-only)
+@angular-devkit/schematics      0.7.2 (cli-only)
+@schematics/angular             0.7.2 (cli-only)
+@schematics/update              0.7.2 (cli-only)
+rxjs                            6.2.2 (cli-only)
+typescript                      2.7.2 (cli-only)
+
+==============================================================
+C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\ASPNETAng-master\ASPNETAng\A6\A6SPA1>npm install @angular-devkit/build-angular
+
+> node-sass@4.9.2 install C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\ASPNETAng-master\ASPNETAng\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.9.2/win32-x64-64_binding.node
+Download complete  ] - :
+Binary saved to C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\ASPNETAng-master\ASPNETAng\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Caching binary to C:\Users\sn.ruknudeen\AppData\Roaming\npm-cache\node-sass\4.9.2\win32-x64-64_binding.node
+
+> node-sass@4.9.2 postinstall C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\ASPNETAng-master\ASPNETAng\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\ASPNETAng-master\ASPNETAng\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Testing binary
+Binary is fine
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN @ngtools/webpack@6.0.8 requires a peer of typescript@~2.4.0 || ~2.5.0 || ~2.6.0 || ~2.7.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular-devkit/build-angular@0.6.8
+added 856 packages from 790 contributors in 291.38s
+=========================================================================
+
+Have tried to update local Angular CLI version to latest but thats ausing other issues
+Have tried to update local typescript version to latest but not all latest typescript version are compatible with local angular-compiler version
+
+=========================================================================
+
+C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\ASPNETAng-master\ASPNETAng\A6\A6SPA1>ng g c employees/create-employee/pec false --flat true -d                                                                                                                                   mployee --sYour global Angular CLI version (6.1.2) is greater than your local
+version (6.0.8). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+CREATE src/app/employees/create-employee/create-employee.component.html (34 bytes)
+CREATE src/app/employees/create-employee/create-employee.component.ts (304 bytes)
+CREATE src/app/employees/create-employee/create-employee.component.css (0 bytes)
+UPDATE src/app/app.module.ts (562 bytes)
+
+NOTE: Run with "dry run" no changes were made.
+
+C:\Users\sn.ruknudeen\source\repos\ConcArc\JSApp\AngularProj\ASPNETAng-master\ASPNETAng-master\ASPNETAng\A6\A6SPA1>ng g c employees/create-employee/pec false --flat true
+Your global Angular CLI version (6.1.2) is greater than your local
+version (6.0.8). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+CREATE src/app/employees/create-employee/create-employee.component.html (34 bytes)
+CREATE src/app/employees/create-employee/create-employee.component.ts (304 bytes)
+CREATE src/app/employees/create-employee/create-employee.component.css (0 bytes)
+UPDATE src/app/app.module.ts (562 bytes)
+
+
+=========================================================================
+
