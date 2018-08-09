@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Employee } from '../../models/employee.model';
 
+// Jquery reference 
+import * as $ from 'jquery';
+
 @Component({
   selector: 'app-list-employees',
   templateUrl: './list-employees.component.html',
@@ -45,6 +48,15 @@ export class ListEmployeesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function () {
+      $("button").click(function () {
+       
+          var div = $("#JQAnim");
+          div.animate({ left: '100px' }, "slow");
+          div.animate({ fontSize: '5em' }, "slow");
+        
+      });
+    });
   }
 
 }

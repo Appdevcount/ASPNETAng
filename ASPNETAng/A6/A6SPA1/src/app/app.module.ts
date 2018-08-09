@@ -1,7 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 // Import RouterModule
-import { RouterModule,Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+
+// import { NgForm } from '@angular/forms';
+// The ngForm directive is provided by Angular FormsModule.So for us to be able to use it, we will have to import the FormsModule in our AppModule file(app.module.ts).So please make sure to include the following import statement.Also include "FormsModule" in the imports array of @NgModule decorator.If "FormsModule" is not imported you will see the following error in the browser developer toolsthere is no directive with exportas set to ngform
+import { FormsModule } from '@angular/forms';
+
 
 import { AppComponent } from './app.component';
 import { ListEmployeesComponent } from './employees/list-employees/list-employees.component';
@@ -31,9 +36,11 @@ const appRoutes: Routes = [
     CreateEmployeeComponent
   ],
   // Include RouterModule in the "imports" array of the @NgModule() decorator
+  //Include FormsModule
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
