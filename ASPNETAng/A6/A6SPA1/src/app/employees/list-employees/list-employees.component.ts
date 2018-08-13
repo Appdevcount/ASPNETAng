@@ -20,7 +20,8 @@ export class ListEmployeesComponent implements OnInit {
       dateOfBirth: new Date('10/25/1988'),
       department: 'IT',
       isActive: true,
-      photoPath: '../../../../emp/assets/images/mark.png'
+      // photoPath: '../../../../emp/assets/images/mark.png'
+      photoPath: '../../../../assets/images/mark.png'
     },
     {
       id: 2,
